@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/murphydoordemo/precache-manifest.69d6cc51b88d5b9053dbabdb321b7d8d.js"
+  "/murphyDoorDemo/precache-manifest.1f50a8dfa481ba2bd05784aaad27d972.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/murphydoordemo/index.html", {
+workbox.routing.registerNavigationRoute("/murphyDoorDemo/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
